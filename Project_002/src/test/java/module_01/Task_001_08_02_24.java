@@ -41,7 +41,7 @@ public class Task_001_08_02_24 {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//input[@id='datepicker']")).sendKeys("08/02/2024");
         Thread.sleep(3000);
-       // driver.close();
+       driver.close();
 	}
 
 }
